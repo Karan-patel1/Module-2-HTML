@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        footer {
+            background-color: hsl(281, 100%, 53%);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position:fixed;
+            bottom: 0px;
+            width: 100%;
+        }
+        main {
+            display: flex;
+            padding: 20px;
+        }
+        .content {
+            flex: 3;
+            padding-right: 20px;
+        }
+        aside {
+            flex: 1;
+            background-color: #f4f4f4;
+            padding: 20px;
+            margin-left: 20px;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1> My Simple Webpage</h1>
+</header>
+
+<main>
+    <div class="content">
+        <p>This is a simple webpage  with a header, footer, main content, and aside section with sidebar content.</p>
+
+        <h2>Unordered List</h2>
+        <ul>
+            <li>student 1</li>
+            <li>student 2</li>
+            <li>student 3</li>
+        </ul>
+
+        <h2>Ordered List</h2>
+        <ol>
+            <li>Karan</li>
+            <li>pimmy</li>
+            <li>dhiraj</li>
+        </ol>
+
+        <p>For more information, visit <a href="https://www.tops-int.com/" target="_blank">TOPS technologies Website</a>.</p>
+    </div>
+
+    <aside>
+        <h3>Sidebar Content</h3>
+        <p>This is the sidebar section. It could contain additional links or information relevant to the main content.</p>
+        <ul>
+            <li><a href="https://www.google.com" target="_blank">Link to google</a></li>
+        </ul>
+    </aside>
+</main>
+
+<footer>
+    <p>&copy; 2025 My Simple Webpage</p>
+</footer>
+
+</body>
+</html>
